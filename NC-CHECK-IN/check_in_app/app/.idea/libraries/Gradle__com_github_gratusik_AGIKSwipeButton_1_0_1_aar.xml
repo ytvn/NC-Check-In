@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.gratusik:AGIKSwipeButton:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/947cd281679ee80c12fa8837c078ab22/jetified-AGIKSwipeButton-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/947cd281679ee80c12fa8837c078ab22/jetified-AGIKSwipeButton-1.0.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.gratusik/AGIKSwipeButton/1.0.1/636eee88fcb933fc74155811a548a30e150d11cf/AGIKSwipeButton-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.gratusik/AGIKSwipeButton/1.0.1/cdda23282bab2dedf1c64fa8e5d2b9947854f11d/AGIKSwipeButton-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

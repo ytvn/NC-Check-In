@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_menu"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <me.dm7.barcodescanner.zxing.ZXingScannerView
+            android:id="@+id/camera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"></me.dm7.barcodescanner.zxing.ZXingScannerView>
+
+        <com.agik.AGIKSwipeButton.View.Swipe_Button_View
+            android:id="@+id/swButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:sb_swipe_text_size="30dp"
+            app:sb_swipe_text="IN"
+            app:sb_swipe_bg_color="#0169c1"
+            app:sb_swipe_both_direction="true"
+            app:sb_swipe_animate_text="true"
+            app:sb_thumb_bg_color="@android:color/transparent"
+            android:layout_margin="5dp"
+
+            />
+        <WebView
+            android:id="@+id/webView"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:background="@android:color/transparent"
+            android:layout_height="200dp">
+        </WebView>
+    </FrameLayout>
+
+    

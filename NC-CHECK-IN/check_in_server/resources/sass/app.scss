@@ -1,0 +1,25 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+@import 'admin-lte';
+@import 'datatables.net-bs4';
+
+.seat { 
+    position: relative;
+    text-align: center;
+    color: white;
+
+    .seat-info{
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translate(-50%, 5px);
+        color: white;
+        font-size: 0.8rem;
+    }
+}
